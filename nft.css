@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #0d1a2d;
+	
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #15273f;
+	width: 280px;
+	height: 550px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	border-radius: 20px;
+
+}
+
+img {
+	width: 250px;
+	margin: 15px;
+	border-radius: 20px;
+}
+
+.nft h1 {
+	color: white;
+	text-align: left;
+	font-size: 1.5em;
+	padding-left: 15px;
+	font-family: 'Outfit:wght@600', sans-serif;
+}
+
+.nft p {
+	color: #879ebe;
+	padding-left: 15px;
+	font-family: 'Outfit:wght@300', sans-serif;
+}
+
+.price {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 15px;
+	background-image: url(images/icon-clock.svg);
+	background-repeat: no-repeat;
+	background-position: 160px -1px;
+}
+
+.ETH {
+	color: #3fdbe7;
+	font-size: 1.2em;
+	padding-left: 20px;
+	background-image: url(images/icon-ethereum.svg);
+	background-repeat: no-repeat;
+	background-position-y: 0px;
+	font-family: 'Outfit:wght@600', sans-serif;
+
+}
+
+.date {
+	color: #879ebe;
+	width: 80px;
+	padding-left: 15px;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	padding-bottom: 35px;
+	padding-top: 25px;
+	border-top: 0.05em solid #879ebe;
+	margin: 0 15px;
+	background-image: url(images/image-avatar.png);
+	background-repeat: no-repeat;
+	background-size: 28px;
+	background-position: 0px 18px;
+	font-family: 'Outfit:wght@300', sans-serif;
+}
+
+.footer span {
+	color: #879ebe;
+}
+
+ .attribution { 
+ 	font-size: 11px; 
+ 	text-align: center; 
+ 	position: absolute;
+ 	color: white; 
+ 	bottom: 0;
+ }
+
+ .attribution a { 
+ 	color: white; 
+ }
